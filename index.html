@@ -1,48 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lam's Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Welcome to Lam's Portfolio</h1>
-        <p>Your journey through <span class="highlight">Data Science</span> and <span class="highlight">Machine Learning</span> starts here!</p>
         <nav>
-          <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-      </header>
-    
-      <!-- Body -->
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Lam, a passionate data enthusiast with experience in building machine learning models, analyzing complex data, and creating impactful visualizations.</p>
-      </section>
-    
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li><strong>Pac-Man AI Game:</strong> Built using C# and SQL, featuring object-oriented programming and pathfinding algorithms.</li>
-          <li><strong>Data Analysis with Python:</strong> Cleaned and analyzed large datasets to extract meaningful insights.</li>
-          <li><strong>Interactive Dashboard:</strong> Created with Tableau for visualizing sales and performance metrics.</li>
-        </ul>
-      </section>
-    
-      <section id="contact">
+    </header>
+
+    <!-- Profil -->
+    <section id="profil">
+        <h1>Bonjour, Je m'appelle LAM.</h1>
+
+        <h2>Étudiante en <strong>Science des Données</strong> </h2>
+
+        <h3>À la recherche d'un stage en <strong>data science</strong> et <strong>machine 
+            learning</strong> à partir d'<strong>avril 2025</strong>, pour une durée 
+            minimum de <strong>10 semaines</strong>
+        </h3> 
+        
+        <h3>
+            Étudiante internationale en BUT 2 <strong>Science des Données</strong> à l'IUT de Lille, 
+            je recherche un stage pour appliquer mes compétences en <strong>analyse</strong>, <strong>visualisation</strong>, et
+            <strong>modélisation statistique</strong>.
+        </h3>
+        
+        <hr>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences">
+        <h2>Compétences</h2>
+        <div class="competences-container">
+            <div class="competence">
+                <h3>Langages de Programmation</h3>
+                <p>
+                    <strong>Python</strong> pour <strong>l'analyse</strong> des données avec <strong>Pandas</strong> et
+                    <strong>NumPy</strong>, ainsi que la <strong>visualisation</strong> avec <strong>Matplotlib</strong>
+                    et <strong>Seaborn</strong>.
+                </p>
+                <p>
+                    <strong>R</strong> pour les statistiques et la visualisation des données
+                </p>
+            </div>
+
+            <div class="competence">
+                <h3>Analyse et Visualisation des Données</h3>
+                <p>Utilisation de <strong>Power BI</strong>, <strong>SAS</strong>, <strong>Tableau</strong> et <strong>Qlik</strong> pour créer des visualisations
+                    interactives et faciliter la prise de décision.</p>
+            </div>
+
+            <div class="competence">
+                <h3>Bases de Données Relationnelles</h3>
+                <p>Expérience avec <strong>Oracle</strong>, <strong>PostgreSQL</strong>, <strong>SQL Server</strong> pour la gestion et l'optimisation des
+                    bases de données, ainsi que le développement de requêtes avec **T-SQL** et **PL/SQL**.</p>
+            </div>
+
+            <div class="competence">
+                <h3>Big Data</h3>
+                <p>Compétences dans le traitement des grandes données avec <strong>Spark</strong> et <strong>Databricks</strong> pour des
+                    solutions distribuées et performantes.</p>
+            </div>
+
+            <div class="competence">
+                <h3>Intégration de Données</h3>
+                <p>Conception de processus <strong>ETL/ELT</strong> avec <strong>ODI</strong>, <strong>BigQuery</strong> et <strong>Talend</strong> pour une gestion efficace
+                    des données.</p>
+            </div>
+
+            <div class="competence">
+                <h3>Machine Learning</h3>
+                <p>Spécialisée dans la modélisation prédictive avec <strong>régression logistique</strong> et <strong>forêts aléatoires<strong>,
+                    utilisant <strong>Scikit-learn</strong> et <strong>GridSearchCV</strong> pour l'optimisation des modèles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets">
+        <h2>Projets</h2>
+        <div class="projet">
+            <h3>Prédiction du Churn des Clients</h3>
+            <div class="info-projet">
+                <div class="des-projet">
+                    <p>
+                        <strong>Analyse</strong> exploratoire des données (EDA) pour identifier 
+                        les variables importantes influençant le <strong>churn</strong>
+                    </p> 
+        
+                    <p>
+                        <strong>Modélisation</strong> prédictive en utilisant <strong>Scikit-learn</strong>, 
+                        avec des algorithmes comme la <strong>régression logistique</strong> et la random forest. 
+                    </p>
+                    
+                    <p>
+                        <strong>Visualisation</strong> des données pour mieux comprendre les relations, 
+                        effectuée avec <strong>Matplotlib</strong> et <strong>Seaborn</strong>.
+                    </p>
+                </div>
+
+                <div class="img-projet"></div>
+            </div>
+        </div>
+
+        <div class="projet">
+            <h3>Intégration d'un Data Warehouse</h3>
+            <div class="info-projet">
+                <div class="des-projet">
+                    <p>
+                        <strong>Création</strong> d'un Data Warehouse avec 
+                        Oracle SQL Developer et ODI <strong>churn</strong>
+                    </hp> 
+
+                    <p>
+                        <strong>Développement</strong> SQL pour 
+                        la gestion des bases de données.
+                    </p>
+        
+                    <p>
+                        <strong>Conception</strong> d'une <strong>modèle en étoile</strong> 
+                        pour automatiser les <strong>flux de données</strong>. 
+                    </p>
+                </div>
+
+                <div class="img-projet"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
         <h2>Contact</h2>
-        <p>Email: lam.data@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/lam" target="_blank">linkedin.com/in/lam</a></p>
-      </section>
-    
-      <!-- Footer -->
-      <footer>
-        <p>© 2024 Lam's Portfolio | Made with ❤️</p>
-      </footer>
+        <p><strong>Téléphone:</strong> 07 48 15 66 21</p>
+        <p><strong>Email:</strong> <a
+                href="mailto:hoang-ngoc-lam.le.etu@univ-lille.fr">hoang-ngoc-lam.le.etu@univ-lille.fr</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hoang-ngoc-lam-le-8a788b2a3/"
+                target="_blank">linkedin.com/in/hoang-ngoc-lam-le</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/lamlhn" target="_blank">github.com/lamlhn</a></p>
+        <hr>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Hoang Ngoc Lam Le</p>
+    </footer>
 </body>
+
 </html>
